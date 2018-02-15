@@ -1,0 +1,33 @@
+/*
+ Theme Name:   Easthill Child
+ Theme URI:    http://example.com/easthill-child/
+ Description:  Mesmerize Child Theme
+ Author:       Charlotte Mundt 
+ Author URI:   http://example.com
+ Template:     easthill
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  easthill-child
+*/
+    
+body {
+    background-color: white;
+}
+.site-footer .widget-area{
+    background-color: lightgrey;
+    width: 100%;
+}
+.search-field{
+    background-color: aquamarine;
+}
+.site-footer .site-info{
+    display: none;
+}
+.page #primary, .single #primary{
+       box-shadow:  0 0px 0px -0px rgba(0,0,0,0.3);
+}
+.read-more{
+background-color: lightgray;
+}
